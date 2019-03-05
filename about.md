@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About YANOTECH
-{% include_relative README.md %}
+{% include_relative README.md %} <!-- Include relative so that we can use README.md as a base, and keep the styling -->
 ## Blog issues
 
 This is a list of the known issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
