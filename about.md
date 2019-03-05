@@ -7,7 +7,7 @@ permalink: /about/
 # About YANOTECH
 {% include_relative README.md %} <!-- Include relative so that we can use README.md as a base, and keep the styling -->
 
-{% assign the_issues = site.data.issues | where_exp: "state", "state != 'closed'" %}
+{% assign the_issues = site.data.issues | where_exp:"item", "item.state != 'closed'" %}
 {% if the_issues.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 ## Blog issues
 
