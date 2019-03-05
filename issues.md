@@ -7,7 +7,7 @@ permalink: /issues/
 ## Blog issues
 {% assign issues_json = site.data.issues %}
 
-**Issues**: {{ issues_json.length }}
+**Number of Issues**: {{ issues_json | length }}
 **First issue**: {{ issues_json[0] }}
 
 {{ issues_json[0].title }}
