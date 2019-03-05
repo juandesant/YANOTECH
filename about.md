@@ -4,4 +4,5 @@ title: About YANOTECH
 permalink: /about/
 ---
 
-{% include_relative README.md %}
+{% capture my-include %}{% include README.md %}{% endcapture %}
+{{ my-include | markdownify }}
