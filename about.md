@@ -12,7 +12,8 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 
 [yanotech-issues]: https://github.com/juandesant/YANOTECH/issues "Issues on YANOTECH repository."
 
-{% assign the_issues = site.data.issues}
+{% assign the_issues = site.data.issues %}
+
 <ul>
 {% for issue in the_issues %}
   <li><a href="{{issue.url}}">{{ issue.title }}</a>: {{issue.body}}</li>
