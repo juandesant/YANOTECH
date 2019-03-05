@@ -16,7 +16,7 @@ This is a list of the known issues —including closed ones— with YANOTECH. Fe
 <ul>
 
 	{% for issue in issues_json %}
-		<li><strong>[{{issue.state}}]</strong><a href="{{issue.html_url}}">{{ issue.title }}</a>: {{issue.body}}</li>
+		<li><strong>[{{issue.state}}]</strong> <a href="{{issue.html_url}}">{{ issue.title }}</a>: {{issue.body}}</li>
 	{% endfor %}
 
 </ul>
