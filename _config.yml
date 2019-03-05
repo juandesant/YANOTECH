@@ -1,5 +1,5 @@
 title: "YANOTECH: Yet ANOther TECHnical Blog"
 author: "Juande Santander-Vela"
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 markdown: kramdown
 permalink: /:slug/
