@@ -11,7 +11,7 @@ permalink: /about/
 {% if the_issues.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 ## Blog issues
 
-This is a list of the known issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
+This is a list of the known open issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues]. You can see a list of all issues on {{"/issues" | relative_url_}}.
 
 [yanotech-issues]: https://github.com/juandesant/YANOTECH/issues "Issues on YANOTECH repository."
 
