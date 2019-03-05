@@ -15,6 +15,6 @@ I will populate some posts here from my old blog [Memoria de Acceso Aleatorio][r
 
 Cheers!
 
-[jekyll]: https://jekyllrb.com/
+[jekyll]:      https://jekyllrb.com/
 [yanotech-es]: https://juandesant.github.io/YANOTECH/
 [ram-blog]:    https://juandesant.wordpress.com/
