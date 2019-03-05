@@ -2,3 +2,4 @@ title: "YANOTECH: Yet ANOther TECHnical Blog"
 author: "Juande Santander-Vela"
 theme: jekyll-theme-slate
 markdown: kramdown
+permalink: /:slug/
