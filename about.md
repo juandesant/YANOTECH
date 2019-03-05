@@ -10,7 +10,7 @@ permalink: /about/
 {% assign the_issues = site.data.issues | where_exp:"item", "item.state != 'closed'" %}
 ## Blog issues
 
-This is a list of the known open issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues]. You can see a list of all issues on {{"/issues" | relative_url_}}.
+This is a list of the known open issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues]. You can see a list of all issues on {{"/issues" | relative_url }}.
 
 [yanotech-issues]: https://github.com/juandesant/YANOTECH/issues "Issues on YANOTECH repository."
 
