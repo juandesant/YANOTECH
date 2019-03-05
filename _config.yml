@@ -3,3 +3,5 @@ author: "Juande Santander-Vela"
 theme: jekyll-theme-minimal
 markdown: kramdown
 permalink: /:slug/
+paginate: 1
+paginate_path: "/page:num/"
