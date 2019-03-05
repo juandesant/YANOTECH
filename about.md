@@ -21,4 +21,4 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 {% endfor %}
 </ul>
 
-{%endif} <!-- if the_issues.length > 0 -->
+{% endif %} <!-- if the_issues.length > 0 -->
