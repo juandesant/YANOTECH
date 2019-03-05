@@ -17,7 +17,7 @@ And this also works for `file` URLs, i.e., `file:///Users/username/file.pdf#page
 
 [pdf-link]: https://helpx.adobe.com/acrobat/kb/link-html-pdf-page-acrobat.html
 
-[^EOFDevGuide]: The TinyURL https://tinyurl.com/EOFDevGuide points to  https://developer.apple.com/library/archive/documentation/LegacyTechnologies/WebObjects/WebObjects_4.0/System/Documentation/Developer/EnterpriseObjects/Guide/EOFDevGuide.pdf. See that you can add the fragment to a redirection!
+[^EOFDevGuide]: The TinyURL https://tinyurl.com/EOFDevGuide points to  [https://developer.apple.com/ library/ archive/ documentation/ LegacyTechnologies/ WebObjects/ WebObjects_4.0/ System/ Documentation/ Developer/ EnterpriseObjects/ Guide/ EOFDevGuide.pdf](https://developer.apple.com/library/archive/documentation/LegacyTechnologies/WebObjects/WebObjects_4.0/System/Documentation/Developer/EnterpriseObjects/Guide/EOFDevGuide.pdf). See that you can add the fragment to a redirection!
 
 ## Linking to a named anchor
 
