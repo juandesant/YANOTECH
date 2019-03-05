@@ -5,7 +5,7 @@ date:   2019-03-05 10:47:53 -0300
 categories: tips
 tags: pdf, url
 ---
-# Link directly to a specific PDF page
+% # Link directly to a specific PDF page (page title)
 
 Sometimes you want to link directly to a given PDF page. For instance, you want to point to a figure that appears on a given page, or to a slide in a PDF presentation.
 

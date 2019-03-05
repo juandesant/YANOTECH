@@ -5,7 +5,7 @@ date:   2019-03-01 11:05:53 -0300
 categories: about
 ---
 
-# Welcome to YANOTECH!
+% # Welcome to YANOTECH! (redundant from title)
 
 This is my first post on YANOTECH, Yet ANOther TECHnical blog which I have decided to build in the open using Github Pages and [Jekyll][jekyll].
 
