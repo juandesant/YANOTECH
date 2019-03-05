@@ -21,7 +21,7 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 <ul>
 
 	{% for issue in issues_json %}
-		<li><a href="{{issue.url}}">{{ issue.title }}</a>: {{issue.body}}</li>
+		<li><a href="{{issue.html_url}}">{{ issue.title }}</a>: {{issue.body}}</li>
 	{% endfor %}
 
 </ul>
