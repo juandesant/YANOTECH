@@ -5,20 +5,14 @@ permalink: /issues/
 ---
 
 ## Blog issues
-{% assign the_issues = site.data.issues %}
+{% assign issues_json = site.data.issues %}
 
-<blockquote>
-	{{ the_issues }}
-</blockquote>
+**Issues**: {{ issues_json.length }}
+**First issue**: {{ issues_json[0] }}
 
-<hr/>
+{{ issues_json[0].title }}
 
-**Issues**: {{ the_issues.length }}
-**First issue**: {{ the_issues[0] }}
-
-{{ the_issues[0].title }}
-
-{% if the_issues.length > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
+{% if issues_json.length > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 
 This is a list of the known issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
 
@@ -26,7 +20,7 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 
 <ul>
 
-	{% for issue in the_issues %}
+	{% for issue in issues_json %}
 		<li><a href="{{issue.url}}">{{ issue.title }}</a>: {{issue.body}}</li>
 	{% endfor %}
 
@@ -36,4 +30,4 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 
 Yay! No issues found!
 
-{% endif %} <!-- if the_issues.length > 0 -->
+{% endif %} <!-- if issues_json.length > 0 -->
