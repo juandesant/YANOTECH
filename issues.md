@@ -14,7 +14,7 @@ permalink: /issues/
 <hr/>
 
 <blockquote>
-	{{ the_issues | inspect }}
+	**Issues**: {{ the_issues.length }}
 </blockquote>
 
 {% if the_issues.length > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
