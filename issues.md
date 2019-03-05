@@ -6,14 +6,13 @@ permalink: /issues/
 
 ## Blog issues
 {% assign issues_json = site.data.issues %}
-{% assign issues_json_length = (site.data.issues | length) %}
 
-**Number of Issues**: {{ issues_json_length }} 
+**Number of Issues**: {{ issues_json.size }} <!-- from https://shopify.github.io/liquid/filters/size/ -->
 **First issue**: {{ issues_json[0] }}
 
 {{ issues_json[0].title }}
 
-{% if issues_json_length > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
+{% if issues_json.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 
 This is a list of the known issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
 
