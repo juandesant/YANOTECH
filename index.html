@@ -9,7 +9,7 @@ title: "YANOTECH: Yet ANOther TECHnical blog"
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <div class="article">
-  <h1><a href="{{ post.url | relative_url}}">{{ post.title }}</a></h1>
+  <h1><a href="{{ post.url | relative_url}}">{{ post.title }}</a></h1> <!-- from https://it.knightnet.org.uk/kb/ghjekyll/liquid-filters/ -->
   <p class="author">
     <span class="date">{{ post.date }}</span>
   </p>
