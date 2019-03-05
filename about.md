@@ -17,6 +17,8 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 
 <ul>
 {% for issue in the_issues %}
-  <li><a href="{{issue.url}}">{{ issue.title }}</a>: {{issue.body}}</li>
+<li><a href="{{issue.url}}">{{ issue.title }}</a>: {{issue.body}}</li>
 {% endfor %}
-</ul>{%endif} <!-- if the_issues.length > 0 -->
+</ul>
+
+{%endif} <!-- if the_issues.length > 0 -->
