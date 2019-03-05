@@ -7,16 +7,11 @@ permalink: /issues/
 ## Blog issues
 {% assign issues_json = site.data.issues %}
 
-**Number of Issues**: {{ issues_json.size }} <!-- from https://shopify.github.io/liquid/filters/size/ -->
-**First issue**: {{ issues_json[0] }}
-
-{{ issues_json[0].title }}
-
-{% if issues_json.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
-
-This is a list of the known issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
+This is a list of the known issues —including closed ones— with YANOTECH. Feel free to report issues on [Github][yanotech-issues].
 
 [yanotech-issues]: https://github.com/juandesant/YANOTECH/issues "Issues on YANOTECH repository."
+
+{% if issues_json.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 
 <ul>
 
@@ -30,4 +25,4 @@ This is a list of the known issues with YANOTECH. Feel free to report issues on 
 
 Yay! No issues found!
 
-{% endif %} <!-- if issues_json_length > 0 -->
+{% endif %} <!-- if issues_json.size > 0 -->
