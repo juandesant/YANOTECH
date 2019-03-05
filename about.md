@@ -8,17 +8,18 @@ permalink: /about/
 {% include_relative README.md %} <!-- Include relative so that we can use README.md as a base, and keep the styling -->
 
 {% assign the_issues = site.data.issues | where_exp:"item", "item.state != 'closed'" %}
-{% if the_issues.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 ## Blog issues
 
 This is a list of the known open issues with YANOTECH. Feel free to report issues on [Github][yanotech-issues]. You can see a list of all issues on {{"/issues" | relative_url_}}.
 
 [yanotech-issues]: https://github.com/juandesant/YANOTECH/issues "Issues on YANOTECH repository."
 
+{% if the_issues.size > 0 %} <!-- We only show the Blog issues section if the JSON file has at least one entry -->
 <ul>
 {% for issue in the_issues %}
 <li><strong>[{{issue.state}}]</strong> <a href="{{issue.html_url}}">{{ issue.title }}</a>: {{issue.body}}</li>
 {% endfor %}
 </ul>
-
+{% else %}
+There are currently no open issues. 
 {% endif %} <!-- if the_issues.size > 0 -->
