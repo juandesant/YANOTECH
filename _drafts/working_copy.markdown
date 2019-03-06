@@ -14,6 +14,23 @@ On iOS, I'm using Working Copy as the git client and editor. I will probably use
 
 In particular, the draft for this post was written within Working Copy, and posted —git committed and got pushed— to the `_drafts` folder. Except I did not use the command line, only the UI.
 
-The process is quite easy within Working Copy: you tap _Done_ when you are done editing, and then you move to the _Status_ tab, where you will see the possibility of both committing, and pushing the commits to the remote at the same time.
+The process is quite easy within Working Copy: you tap _Done_ when you are done editing.
 
-The _Changes_ tab visualizes what has changed from the last commit.
+![Wc 01 Editing](../_imgs/wc_01_editing.png "Editing text in Working Copy")
+
+If you look at the lower part of the screen, you'll see several tabs, including _Status_.
+
+![Wc 02 Tab Bar](../_imgs/wc_02_tab_bar.png "Working Copy's tab bar")
+
+Then you move to the _Status_ tab, where you will see the possibility of both committing, and pushing the commits to the remote at the same time.
+
+![Wc 03 Status Tab](../_imgs/wc_03_status_tab.png "Working Copy's Status tab")
+![Wc 04 Commit Push](../_imgs/wc_04_commit_push.png "Committing and pushing changes in Working Copy")
+
+After pushing the changes, you receive confirmation of the data exchanged with the remote repository.
+
+![Wc 05 Commit Push Result](../_imgs/wc_05_commit_push_result.png "Results of commiting a file with Working Copy").
+
+At any time, you can go to the _Changes_ tab, which visualizes what has changed from the last commit.
+
+![Wc 06 Changes Tab](../_imgs/wc_06_changes_tab.png)
