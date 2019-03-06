@@ -1,7 +1,7 @@
 ---
 title: "Posting to YANOTECH and Working Copy"
 category: tips
-tags: iOS markdown macOS git
+tags: [iOS, markdown, macOS, git, yanotech]
 ---
 
 The good thing about using Github Pages for hosting YANOTECH is that posting is just creating a new markdown file within the `_posts` subfolder, and once everything is setup (the subject for a future post), everything is dealt with for you by Jekyll running on behalf of Github Pages.
