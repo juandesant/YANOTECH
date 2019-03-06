@@ -7,7 +7,7 @@ tags: [iOS, markdown, macOS, git, yanotech]
 
 The good thing about using Github Pages for hosting YANOTECH is that posting is just creating a new markdown file within the `_posts` subfolder, and once everything is setup (the subject for a future post), everything is dealt with for you by Jekyll running on behalf of Github Pages.
 
-I have also created a `_drafts` subfolder, where I can start with stubs for things that I want to publish. I can keep editing in the `_drafts` subfolder, but things will not be accessible on the web until I give them a name in the form `YYYY-MM-DD A Very Impressive Title.markdown` and they are moved to the `_posts` folder.
+I have also created a `_drafts` subfolder, where I can start with stubs for things that I want to publish. I can keep editing in the `_drafts` subfolder, but things will not be accessible on the web until I give them a name in the form `YYYY-MM-DD-A-Very-Impressive-Title.markdown` and they are moved to the `_posts` folder.
 
 How am I creating the posts? On the Mac —or any other desktop platform with a git client—, I'm using TextMate and Github Desktop.
 
