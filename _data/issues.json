@@ -1,63 +1,15 @@
 [
   {
-    "url": "https://api.github.com/repos/juandesant/YANOTECH/issues/2",
+    "url": "https://api.github.com/repos/juandesant/YANOTECH/issues/3",
     "repository_url": "https://api.github.com/repos/juandesant/YANOTECH",
-    "labels_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/2/labels{/name}",
-    "comments_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/2/comments",
-    "events_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/2/events",
-    "html_url": "https://github.com/juandesant/YANOTECH/issues/2",
-    "id": 417448238,
-    "node_id": "MDU6SXNzdWU0MTc0NDgyMzg=",
-    "number": 2,
-    "title": "Issue list does not work",
-    "user": {
-      "login": "juandesant",
-      "id": 1641249,
-      "node_id": "MDQ6VXNlcjE2NDEyNDk=",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/1641249?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/juandesant",
-      "html_url": "https://github.com/juandesant",
-      "followers_url": "https://api.github.com/users/juandesant/followers",
-      "following_url": "https://api.github.com/users/juandesant/following{/other_user}",
-      "gists_url": "https://api.github.com/users/juandesant/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/juandesant/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/juandesant/subscriptions",
-      "organizations_url": "https://api.github.com/users/juandesant/orgs",
-      "repos_url": "https://api.github.com/users/juandesant/repos",
-      "events_url": "https://api.github.com/users/juandesant/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/juandesant/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "labels": [
-
-    ],
-    "state": "closed",
-    "locked": false,
-    "assignee": null,
-    "assignees": [
-
-    ],
-    "milestone": null,
-    "comments": 0,
-    "created_at": "2019-03-05T18:44:36Z",
-    "updated_at": "2019-03-05T18:45:11Z",
-    "closed_at": "2019-03-05T18:45:11Z",
-    "author_association": "OWNER",
-    "body": "The list of issues in [https://juandesant.github.io/YANOTECH/issues/](https://juandesant.github.io/YANOTECH/issues/) does not appear correctly."
-  },
-  {
-    "url": "https://api.github.com/repos/juandesant/YANOTECH/issues/1",
-    "repository_url": "https://api.github.com/repos/juandesant/YANOTECH",
-    "labels_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/1/labels{/name}",
-    "comments_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/1/comments",
-    "events_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/1/events",
-    "html_url": "https://github.com/juandesant/YANOTECH/issues/1",
-    "id": 417404599,
-    "node_id": "MDU6SXNzdWU0MTc0MDQ1OTk=",
-    "number": 1,
-    "title": "Links to posts don't work",
+    "labels_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/3/comments",
+    "events_url": "https://api.github.com/repos/juandesant/YANOTECH/issues/3/events",
+    "html_url": "https://github.com/juandesant/YANOTECH/issues/3",
+    "id": 417835858,
+    "node_id": "MDU6SXNzdWU0MTc4MzU4NTg=",
+    "number": 3,
+    "title": "Images don't show when using classic Markdown",
     "user": {
       "login": "juandesant",
       "id": 1641249,
@@ -88,7 +40,7 @@
         "default": true
       }
     ],
-    "state": "closed",
+    "state": "open",
     "locked": false,
     "assignee": {
       "login": "juandesant",
@@ -133,11 +85,11 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
-    "created_at": "2019-03-05T17:07:12Z",
-    "updated_at": "2019-03-05T18:25:02Z",
-    "closed_at": "2019-03-05T18:21:56Z",
+    "comments": 0,
+    "created_at": "2019-03-06T14:38:06Z",
+    "updated_at": "2019-03-06T14:38:21Z",
+    "closed_at": null,
     "author_association": "OWNER",
-    "body": "The links created in the main `index.html` page do not contain `YANOTECH/`, and hence clicking on them provides a beautiful 404 error page…"
+    "body": "When using the following Markdown code to show images, and assuming that an `assets` folder exists in the root level of the project, images are not shown because the path does not include `YANOTECH` (i.e., the `baseurl` property).\r\n\r\n    ![Image title](/assets/image_file.png \"Hover text for image\")"
   }
 ]
