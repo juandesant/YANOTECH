@@ -33,6 +33,6 @@ After pushing the changes, you receive confirmation of the data exchanged with t
 
 At any time, you can go to the _Changes_ tab, which visualizes what has changed from the last commit.
 
-![Wc 06 Changes Tab](/assets/wc_06_changes_tab.png)
+![Wc 06 Changes Tab](/assets/wc_06_changes_tab.png "Working Copy's Changes Tab")
 
 And that's it!
