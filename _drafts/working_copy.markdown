@@ -14,4 +14,6 @@ On iOS, I'm using Working Copy as the git client and editor. I will probably use
 
 In particular, the draft for this post was written within Working Copy, and posted —git committed and got pushed— to the `_drafts` folder. Except I did not use the command line, only the UI.
 
-The process is quite easy within Working Copy: you tap _Done_ when you are done editing, and then you move to the _Status_ tab, where you will see the possibility of both committing, and pushing the commits to the remote at the same time. 
+The process is quite easy within Working Copy: you tap _Done_ when you are done editing, and then you move to the _Status_ tab, where you will see the possibility of both committing, and pushing the commits to the remote at the same time.
+
+The _Changes_ tab visualizes what has changed from the last commit.
