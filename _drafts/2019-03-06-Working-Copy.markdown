@@ -1,5 +1,6 @@
 ---
 title: "Posting to YANOTECH and Working Copy"
+date:   2019-03-06 11:29:30 -0300
 category: tips
 tags: [iOS, markdown, macOS, git, yanotech]
 ---
