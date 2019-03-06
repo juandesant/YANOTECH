@@ -34,3 +34,5 @@ After pushing the changes, you receive confirmation of the data exchanged with t
 At any time, you can go to the _Changes_ tab, which visualizes what has changed from the last commit.
 
 ![Wc 06 Changes Tab](../_imgs/wc_06_changes_tab.png)
+
+And that's it!
