@@ -112,8 +112,6 @@ In this way, you can convert USD to EUR and viceversa:
     >>> (500*EUR).to(USD)
     <Quantity 441.1 USD>
 
-I hope that helps! It will sure help me remember how to do this the next time ;-)
-
 And why am I working with currencies? I'm looking at storage prices across different cloud providers, and being able to attach a price per gigabyte per month, and then calculate the price for a full petabyte for a year is quite useful.
 
 For instance, assuming a price of 0.05 USD per gigabyte per month, the price of storing a petabyte for a year can be easily calculated now as:
@@ -131,6 +129,13 @@ or
 
     >>> (storage_cost*u.petabyte*u.year).decompose()
     <Quantity 608750. USD>
+
+You could, instead, just get the factor in USD per petabyte per year:
+
+    >>> storage_cost.to(USD/u.petabyte/u.year)
+    <Quantity 608750. USD / (Pbyte yr)>
+
+I hope that helps! It will sure help me remember how to do this the next time ;-)
 
 [duck_astropy_unit]: http://duckduckgo.com/?q=site:astropy.org+define+new+unit "Search in DuckDuckGo for 'define new unit' within astropy.org"
 [combine_define_units]: http://docs.astropy.org/en/stable/units/combining_and_defining.html "AstroPy Docs: Combining and Defining Units"
