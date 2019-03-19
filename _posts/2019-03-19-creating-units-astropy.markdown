@@ -1,3 +1,10 @@
+---
+title: "Creating units in AstroPy"
+date:   2019-03-19 13:22:30 -0300
+category: astropy, python
+tags: [python, astropy, units, conversion, currency]
+---
+
 I am writing this post as a reminder to myself of how to create units in AstroPy.
 
 The first enchantment to use units in AstroPy is to type (remeber that `>>> ` represents the Python prompt, and must not be typed):
