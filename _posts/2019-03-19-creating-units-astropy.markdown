@@ -9,6 +9,7 @@ This allows you to just use `u.` as a prefix to your units, and to things like
     >>> (u.km/u.h).to(u.m/u.s)
 
 to convert between between kilometres per hour and metres per second, or the more astronomically oriented:
+
     >>> (u.lightyear).to(u.m)
     9460730472580800.0
 
@@ -122,10 +123,12 @@ For instance, assuming a price of 0.05 USD per gigabyte per month, the price of 
     <Quantity 0.00166667 Pbyte USD yr / (d Gbyte)>
 
 So, if you want to normalise it, you need to calculate it as:
+
     >>> (storage_cost*u.petabyte*u.year).to(USD)
     <Quantity 608750. USD>
 
 or
+
     >>> (storage_cost*u.petabyte*u.year).decompose()
     <Quantity 608750. USD>
 
