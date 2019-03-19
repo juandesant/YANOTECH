@@ -119,6 +119,7 @@ In this way, you can convert USD to EUR and viceversa:
     >>> (500*EUR).to(USD)
     <Quantity 441.1 USD>
 
+## Using other units with your own: storage price calculations
 And why am I working with currencies? I'm looking at storage prices across different cloud providers, and being able to attach a price per gigabyte per month, and then calculate the price for a full petabyte for a year is quite useful.
 
 For instance, assuming a price of 0.05 USD per gigabyte per month, the price of storing a petabyte for a year can be easily calculated now as:
