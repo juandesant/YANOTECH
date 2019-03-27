@@ -17,6 +17,7 @@ While I complete the post, here is a list of links, and relevant code that I fin
 
  * Athena: Querying AWS CloudTrail Logs: [https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html](https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html "Querying AWS CloudTrail Logs - Amazon Athena")
  * Athena: Extracting JSON data: [https://docs.aws.amazon.com/athena/latest/ug/querying-JSON.html](https://docs.aws.amazon.com/athena/latest/ug/querying-JSON.html "Querying JSON - Amazon Athena")
+ * Analyzing CloudTrail with Athena, by Andreas Wittig: [https://cloudonaut.io/analyzing-cloudtrail-with-athena/](https://cloudonaut.io/analyzing-cloudtrail-with-athena/ "cloudonaut: Analyzing CloudTrail with Athena")
  
 And this is a query that is successful in retrieving resource names for those items that include resource names:
 
