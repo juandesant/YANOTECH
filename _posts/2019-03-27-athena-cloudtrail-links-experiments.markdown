@@ -1,4 +1,5 @@
 ---
+author: Juande Santander-Vela
 layout: post
 title:  "Relevant links and experiments with AWS Athena and CloudTrail"
 date:   2019-03-27 11:14:30 -0300
@@ -20,7 +21,7 @@ While I complete the post, here is a list of links, and relevant code that I fin
  * Analyzing CloudTrail with Athena, by Andreas Wittig: [https://cloudonaut.io/analyzing-cloudtrail-with-athena/](https://cloudonaut.io/analyzing-cloudtrail-with-athena/ "cloudonaut: Analyzing CloudTrail with Athena")
  * Athena: Querying Arrays with Complex Types and Nested Structures: [https://docs.aws.amazon.com/athena/latest/ug/rows-and-structs.html](https://docs.aws.amazon.com/athena/latest/ug/rows-and-structs.html "Querying Arrays with Complex Types and Nested Structures - Amazon Athena")
  * Athena: Flattening Arrays: [https://docs.aws.amazon.com/athena/latest/ug/flattening-arrays.html](https://docs.aws.amazon.com/athena/latest/ug/flattening-arrays.html "Flattening Nested Arrays - Amazon Athena")
- 
+
 And this is a query that is successful in retrieving resource names for those items that include resource names:
 
     SELECT uarn,

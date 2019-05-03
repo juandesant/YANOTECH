@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Juande Santander-Vela
 title:  "Welcome to YANOTECH!"
 date:   2019-03-01 11:05:53 -0300
 categories: about

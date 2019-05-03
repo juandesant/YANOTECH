@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Juande Santander-Vela
 title:  "Link directly to a specific PDF page"
 date:   2019-03-05 10:47:53 -0300
 categories: tips
