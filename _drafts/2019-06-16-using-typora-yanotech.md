@@ -2,7 +2,7 @@
 layout: post
 author: Juande Santander-Vela
 title: Using Typora for YANOTECH posts
-date: 2019-05-03 14:02:00 -0400
+date: 2019-06-16 13:14:30 -0400
 categories: tools, markdown, jekyll, software
 tags: Typora, markdown
 ---
