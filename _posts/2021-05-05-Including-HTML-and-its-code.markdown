@@ -34,9 +34,10 @@ I started from this [solution in StackOverflow to the question *How to include v
     </html>
 
 The first `<script>` loads jQuery. The second `<script>`:
-*loads the content of file `included.html`
-*uses jQuery to find the tag with `id` equal to `verbatim_includedhtml`, and injects the file into it.
-*uses jQuery again to prepend (`.before`) the HTML to it.
+
+ * loads the content of file `included.html`
+ * uses jQuery to find the tag with `id` equal to `verbatim_includedhtml`, and injects the file into it.
+ * uses jQuery again to prepend (`.before`) the HTML to it.
     
 After loading the page, and running that script, this is the resulting HTML:
 
