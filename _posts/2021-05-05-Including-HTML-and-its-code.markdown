@@ -1,9 +1,9 @@
 ---
 layout: post
 author: Juande Santander-Vela
-title:  "Including HTML and its code in the same page"
+title:  "Including HTML code in page, and also show its content verbatim"
 date:   2021-05-05 12:48:30 -0400
-categories: html, jQuery, code display
+categories: html, javascript, jQuery, code display
 ---
 
 I was asked by a colleague at SKAO how to render part of an HTML page in verbatim, while the code existed there.
