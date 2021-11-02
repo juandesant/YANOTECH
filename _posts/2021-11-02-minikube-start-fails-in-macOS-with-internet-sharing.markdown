@@ -90,3 +90,7 @@ Not sure what was the mental jump that made me realise that Internet Sharing mig
 So I'm not sure exactly how I managed to start the minikube in the first place, because I think I had Internet Sharing active, but the real thing is that you can indeed use Internet Sharing… after you have started the minikube. But just bear in mind that there might be networking errors in your minikube that might be related to Internet Sharing…
 
 Hope that helps!
+
+ps. I've raised it as an [issue in Minikube][2], as this happens both with HyperKit and VirtualBox…
+
+[2]: https://github.com/kubernetes/minikube/issues/12840 "Github: kubernetes/minikube issue #12840: Minikube start fails in macos Big Sur with Internet Sharing on regardless of driver"
