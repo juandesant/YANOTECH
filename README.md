@@ -1,4 +1,4 @@
-YANOTECH (Yet ANOther TECHnical) is a blog I have decided to build using Github Pages and [Jekyll][jekyllrb].
+**YANOTECH** (Yet ANOther TECHnical) is a blog I have decided to build using Github Pages and [Jekyll][jekyllrb].
 
 [This blog][yanotech] will mostly contain technical posts that are relevant to a wide technical audience, from cloud technologies, dockerisation, or simple tips.
 
