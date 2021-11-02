@@ -7,15 +7,17 @@ categories: command-line-interface, macOS, docker, minikube, hyperkit, virtualbo
 
 I have not seen this issued mentioned, much less resolved, anywhere on the internet, som I'm posting this just in case you find yourself running into this issue.
 
-Because of the amount of resource usage, but also due to their recent policy changes, I've decided to move away from the official Docker Community Edition, into the usage of Minikube and HyperKit.
+Because of the amount of resource usage (also known as unacceptably hot and almost unusable laptop state), but also due to their recent policy changes, I've decided to move away from the official Docker Community Edition, into the usage of Minikube and HyperKit.
 
-I followed the instructions from Arnon Rotem-Gal-Oz on Cirrus Minor, and they worked quite well: just do
+I followed the [instructions from Arnon Rotem-Gal-Oz on Cirrus Minor][1], and they worked quite well: just type
+
+[1]: https://arnon.me/2021/09/replace-docker-with-minikube/ "Cirrus Minor: Replacing Docker Desktop with hyperkit + minikube"
 
     brew install hyperkit
     brew install minikube
     brew install docker # assuming you don't have the official Docker distribution, or you've removed it
     minikube start
-    eval $(minikube docker-env)
+    eval $(minikube docker-env) # creates the relevant Docker environmenta variables
 
 However, after a reboot, when I wanted to restart the minikube with `minikube start`, things failed:
 
