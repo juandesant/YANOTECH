@@ -2,7 +2,7 @@
 layout: post
 author: Juande Santander-Vela
 title:  "Minikube start fails in macOS with Internet Sharing activated"
-categories: bash, command-line-interface, macOS, Linux, Unix
+categories: command-line-interface, macOS, docker, minikube, hyperkit, virtualbox, containers
 ---
 
 I have not seen this issued mentioned, much less resolved, anywhere on the internet, som I'm posting this just in case you find yourself running into this issue.
