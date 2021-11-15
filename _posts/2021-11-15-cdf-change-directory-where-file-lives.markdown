@@ -11,7 +11,7 @@ As a macOS user, I'm very used to the fact that you can use *Show in Finder* or 
 
 That is why I developed the following bash function (which started in my `.bash_profile`, and now lives in my `.zshrc`) that does exactly that:
 
-```lang-applescript
+```lang-bash
 cdf() {
 	dest_dir=$(dirname "$1")
 	cd "$dest_dir"
