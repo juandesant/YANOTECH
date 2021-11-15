@@ -5,7 +5,7 @@ title:     "cdf: a function to change to the directory that contains a file"
 categories: command-line-interface, posix, bash, zsh, shell
 ---
 
-**TL;DR**: `cdf` is a tool that you can use in any bash-like shell (zsh included) to change to the directory that contains the file whose path is being passed as an argument.
+> **TL;DR**: `cdf` is a tool that you can use in any bash-like shell (zsh included) to change to the directory that contains the file whose path is being passed as an argument.
 
 As a macOS user, I'm very used to the fact that you can use *Show in Finder* or *Show in enclosing folder* on many occassions. But sometimes, you want to do something similar in the terminal.
 
