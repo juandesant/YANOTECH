@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     Juande Santander-Vela
-title:     "cdf: a function to change to the directory that contains a file"
+title:     "`cdf`: a function to change to the directory that contains a file"
 categories: command-line-interface, posix, bash, zsh, shell
 ---
 
