@@ -5,7 +5,7 @@ title:     "Minikube start fails in macOS with Internet Sharing activated"
 categories: command-line-interface, macOS, docker, minikube, hyperkit, virtualbox, containers
 ---
 
-**TL;DR**: If you are having problems with `minikube start`, check your VPN and Internet Sharing preferences, and make sure networking is _normal_ before issuing the `minikube start` command.
+> **TL;DR**: If you are having problems with `minikube start`, check your VPN and Internet Sharing preferences, and make sure networking is _normal_ before issuing the `minikube start` command.
 
 I have not seen this issued mentioned, much less resolved, anywhere on the internet, som I'm posting this just in case you find yourself running into this issue.
 
