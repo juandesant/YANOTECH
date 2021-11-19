@@ -4,6 +4,7 @@ baseurl: /YANOTECH
 # theme: jekyll-theme-minimal
 remote_theme: samarsault/texture
 markdown: 
+show_excerpts: true
 permalink: /:slug
 paginate: 2
 paginate_path: "/page:num/"
