@@ -13,7 +13,8 @@ texture:
   tagline: Yet ANOther TECHnical Blog
   date_format: "%Y-%m-%d"
   style: blue
-
+  showNav: true
+  
   social_links:
     twitter: juandesant
     github:  juandesant
