@@ -24,6 +24,7 @@ While I complete the post, here is a list of links, and relevant code that I fin
 
 And this is a query that is successful in retrieving resource names for those items that include resource names:
 
+```sql
     SELECT uarn,
              eventname,
              sourceipaddress,
@@ -40,5 +41,6 @@ And this is a query that is successful in retrieving resource names for those it
                 AND cardinality(resources) >= 1 ) AS t 
     WHERE resources[1].arn like '%resource_id%'
     LIMIT 100;
+```
 
 I'll keep ellaborating this draft.
