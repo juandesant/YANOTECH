@@ -2,7 +2,7 @@
 layout: post
 author: Juande Santander-Vela
 title:  "How to read, remove a file with dashes from the command line in macOS, Linux/Unix"
-categories: bash, command-line-interface, macOS, Linux, Unix
+categories: bash command-line-interface macOS Linux Unix
 ---
 
 I inadvertedly created a file starting with two dashes (the filename was `--verbose`) because I was trying to do something with `curl` that was misinterpreted.

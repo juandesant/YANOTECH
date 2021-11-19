@@ -3,8 +3,8 @@ layout: post
 author: Juande Santander-Vela
 title: Using Typora for YANOTECH posts
 date: 2019-06-16 13:14:30 -0400
-categories: tools, markdown, jekyll, software
-tags: Typora, markdown
+categories: tools markdown jekyll software
+tags: Typora markdown
 ---
 
 Thanks to Javier Arantegui ([@runjaj](https://twitter.com/runjaj "Javier Arantegui (@runjaj) in Twitter")), I've discovered [Typora][typora], a Markdown editor with customizable appearance and built-in support for features such as numbering, tables of contents, math, and most interestingly, [text-described diagrams][typora-diags].

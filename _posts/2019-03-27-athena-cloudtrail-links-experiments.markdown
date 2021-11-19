@@ -3,7 +3,7 @@ author: Juande Santander-Vela
 layout: post
 title:  "Relevant links and experiments with AWS Athena and CloudTrail"
 date:   2019-03-27 11:14:30 -0300
-categories: aws, cloud, monitoring 
+categories: aws cloud monitoring 
 ---
 
 If you're trying to investigate what operation gave birth to a given Amazon Web Services (AWS) resource, specially one that you will pay for, but are not sure if it is worth paying for, the best way to investigate about it is using [AWS CloudTrail][AWS_CloudTrail].

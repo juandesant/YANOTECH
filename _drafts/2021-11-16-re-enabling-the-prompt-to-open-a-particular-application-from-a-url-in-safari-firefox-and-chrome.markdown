@@ -2,7 +2,7 @@
 layout:     post
 author:     Juande Santander-Vela
 title:     "Re-enabling the prompt to open a particular application from a URL in Safari, Firefox, and Chrome"
-categories: Miro, Chrome, Firefox, application pop-up, macOS
+categories: Miro Chrome Firefox "application pop-up" macOS
 ---
 
 > This is a partial post; I prefer to post it in progress, as I think it can help some people even if it is not finished. Polish will come later…
