@@ -3,7 +3,7 @@ layout: post
 author: Juande Santander-Vela
 title:  "Welcome to YANOTECH!"
 date:   2019-03-01 11:05:53 -0300
-categories: about
+categories: about YANOTECH
 ---
 
 This is my first post on YANOTECH, Yet ANOther TECHnical blog which I have decided to build in the open using Github Pages and [Jekyll][jekyll].

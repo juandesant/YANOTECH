@@ -2,7 +2,7 @@
 layout:     post
 author:     Juande Santander-Vela
 title:     "Chat with Fabrício Laguna about scaling agile for SKAO"
-categories: software development methodologies agile SAFe "large-scale infrastructures"
+categories: [software, development, methodologies, agile, SAFe, large-scale infrastructures]
 ---
 
 I had a very nice chat with [Fabrício Laguna][1], The Brazilian Business Analyst, about how scale practices are helping us deliver the software for the SKA telescopes.
