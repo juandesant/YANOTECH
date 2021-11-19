@@ -1,7 +1,7 @@
 title: "YANOTECH: Yet ANOther TECHnical Blog"
 author: "Juande Santander-Vela"
-# theme: jekyll-theme-minimal
-remote_theme: samarsault/texture
+theme: jekyll-theme-minimal
+# remote_theme: samarsault/texture
 baseurl: YANOTECH/
 markdown: kramdown
 permalink: /:slug
